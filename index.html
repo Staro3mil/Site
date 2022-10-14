@@ -1,13 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>David's personal site</title>
+        <style>
+
+            body{
+                background-color: rgb(93, 134, 196);
+                margin: auto;
+                width: fit-content;
+                
+            }
+
+            hr{
+                border: 0;
+                border-bottom: 15px dotted;
+                border-color: orange;
+                height: 4px;
+                width: 30%;
+            }
+            .centered{
+                margin: auto;
+                width: 50%;
+               
+                
+            }
+            ul{
+                display: table;
+                
+            }
+            ol{
+                display: table;
+            }
+            h3{
+                text-align: center;
+            }
+            a{
+                text-align: center;
+            }
+          
+
+        </style>
         <link rel="icon" href="Favicon.png" type="image/png">
     </head>
+
     <body>
-        <table cellspacing="20" >
+        <table>
             <tr>
                 <td>
                     <img height="200" width="200" src="V4.png" alt="V1 from Ultrakill">
@@ -15,13 +53,14 @@
                 <td>
                     <h1>David</h1>    
         <p>HTML and CSS <em>beginner</em></p> 
-        <p>This is just a <a href="https://www.youtube.com/watch?v=QCXmUplRd_M">silly little paragraph</a> do not judge please</p>
+        <p>This is just a <a href="https://www.youtube.com/watch?v=QCXmUplRd_M">silly little paragaph</a> do not judge please</p>
                 </td>
             </tr>
         </table>
        
+        <div class="centered">
+        <hr>
         
-        <hr noshade size="3" color="orange">
         <h3>Education</h3>
         <ul>
             <li>Alexandru Ioan Cuza Highschool</li>
@@ -36,7 +75,8 @@
             <li><a href="https://youtu.be/tkBUpJtYFTw?t=56">Gym</a></li>
             <li><a href="https://www.amazon.com/Silver-Eyes-Five-Nights-Freddys/dp/133813437X">Reading</a></li>
         </ol>
-        <hr noshade size="3" color="orange">
+        <hr>
+        
         <h3>Work Experience</h3>
         <table cellspacing="10">
             <thead>
@@ -57,7 +97,9 @@
             </tbody>
             
         </table>
-        <hr noshade size="3" color="orange">
+        
+        <hr>
+    
         <table cellspacing="10" >
             <thead>
                 <h3>Skills</h3>
@@ -77,8 +119,9 @@
                 </tr>
             </tbody>
         </table>
-        <hr noshade size="3" color="orange">
-        <a href="video.html">Contact me</a>
-    
+        
+        <hr>
+    <a href="video.html">Contact me</a>
+    </div>
     </body>
 </html>
